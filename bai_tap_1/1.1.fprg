@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1.1"/>
+        <attribute name="authors" value="admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-28 07:56:01 CH"/>
+        <attribute name="created" value="YWRtaW47TVNJOzIwMjUtMTAtMjg7MDc6NDA6MDQgQ0g7MjAxNQ=="/>
+        <attribute name="edited" value="YWRtaW47TVNJOzIwMjUtMTAtMjg7MDc6NTY6MDEgQ0g7MTsyMTI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, h, S" type="Real" array="False" size=""/>
+            <output expression="&quot;nhap canh day: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;nhap chieu cao: &quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="S" expression="0.5 * a * h"/>
+            <output expression="&quot;Dien tich tam giac la: &quot; &amp; S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
